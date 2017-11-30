@@ -1,0 +1,19 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int choice;
+cout<<"choice list:-"<<endl;
+cout<<"1.hello world program"<<endl;
+cout<<"enter your choice:";
+cin>>choice;
+switch(choice)
+{
+case 1:
+break;
+default:
+cout<<"wrong choice!!!"<<endl;
+}
+getch();
+}
